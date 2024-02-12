@@ -1,4 +1,8 @@
-
+import facebook from '../assets/facebook.svg'
+import twitter from '../assets/twitter.svg'
+import linkedIn from '../assets/linkedin.svg'
+import google from '../assets/google.svg'
+import youtube from '../assets/youtube.svg'
 
 const Contact = () => {
   return (
@@ -7,11 +11,11 @@ const Contact = () => {
         <h1 className="text-[30px] text-left tracking-tighter font-oswald ">LET'S HAVE A TALK ABOUT YOUR PROJECT.</h1>
         <div className="flex-1">
           <ul className="flex flex-row gap-3 list-none justify-end">
-            <li className="pointer"><img src="/src/assets/facebook.svg" alt="fb" /></li>
-            <li className="pointer"><img src="/src/assets/twitter.svg" alt="twitter" /></li>
-            <li className="pointer"><img src="/src/assets/linkedin.svg" alt="linkedin" /></li>
-            <li className="pointer"><img src="/src/assets/google.svg" alt="google" /></li>
-            <li className="pointer"><img src="/src/assets/youtube.svg" alt="youtube" /></li>
+            <li className="pointer"><img src={facebook} alt="fb" /></li>
+            <li className="pointer"><img src={twitter} alt="twitter" /></li>
+            <li className="pointer"><img src={linkedIn} alt="linkedin" /></li>
+            <li className="pointer"><img src={google} alt="google" /></li>
+            <li className="pointer"><img src={youtube} alt="youtube" /></li>
           </ul>
         </div>
       </div>
