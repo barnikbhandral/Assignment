@@ -1,8 +1,8 @@
-// import { top } from "../assets"
+import top  from "../assets/top.png"
 const Header = () => {
     return (
         <header>
-            <img src='/src/assets/top.png' alt="top" className=" object-contain" />
+            <img src={top} alt="top" className=" object-contain" />
         </header>
     )
 

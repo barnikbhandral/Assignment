@@ -1,4 +1,5 @@
-
+import webflow from '../assets/webflow.svg'
+import sentry from '../assets/sentry.svg'
 
 const Partners = () => {
   return (
@@ -9,19 +10,19 @@ const Partners = () => {
         <div className="flex-2  flex justify-center md:justify-end items-center">
           <table className="border-1">
             <tr>
-              <td className="tData"><img src='/src/assets/sentry.svg' alt="sentry" /></td>
-              <td className="tData"><img src='/src/assets/webflow.svg' alt="webflow" /></td>
-              <td className="tData"><img src='/src/assets/sentry.svg' alt="sentry" /></td>
+              <td className="tData"><img src={sentry} alt="sentry" /></td>
+              <td className="tData"><img src={webflow} alt="webflow" /></td>
+              <td className="tData"><img src={sentry} alt="sentry" /></td>
             </tr>
             <tr>
-              <td className="tData"><img src='/src/assets/sentry.svg' alt="sentry" /></td>
-              <td className="tData"><img src='/src/assets/webflow.svg' alt="webflow" /></td>
-              <td className="tData"><img src='/src/assets/sentry.svg' alt="sentry" /></td>
+              <td className="tData"><img src={sentry} alt="sentry" /></td>
+              <td className="tData"><img src={webflow} alt="webflow" /></td>
+              <td className="tData"><img src={sentry} alt="sentry" /></td>
             </tr>
             <tr>
-              <td className="tData"><img src='/src/assets/webflow.svg' alt="webflow" /></td>
-              <td className="tData"><img src='/src/assets/sentry.svg' alt="sentry" /></td>
-              <td className="tData"><img src='/src/assets/webflow.svg' alt="webflow" /></td>
+              <td className="tData"><img src={webflow} alt="webflow" /></td>
+              <td className="tData"><img src={sentry} alt="sentry" /></td>
+              <td className="tData"><img src={webflow} alt="webflow" /></td>
             </tr>
           </table>
         </div>
